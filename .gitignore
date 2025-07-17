@@ -1,0 +1,33 @@
+# Object files
+*.o
+*.obj
+
+# Binary files
+*.bin
+*.elf
+
+# ISO images and boot files
+*.iso
+iso/
+isodir/
+
+# Build artifacts
+*.map
+*.lst
+*.sym
+
+# Editor/IDE files
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS specific
+Thumbs.db
+*.tmp
+*.temp
+
+# Debugging files
+*.gdb
+core.*

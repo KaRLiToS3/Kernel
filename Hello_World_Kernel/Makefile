@@ -24,4 +24,4 @@ run: os-image
 	qemu-system-x86_64 -cdrom os-image.iso -m 512M
 
 clean:
-	rm -f *.o *.bin iso/boot/kernel.bin iso/boot/grub/grub
+	rm -rf *.o *.bin *.iso iso
